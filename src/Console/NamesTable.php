@@ -1,13 +1,13 @@
 <?php
 
-namespace Ajthinking\Tinx\Console;
+namespace ChrisVasey\Tinx\Console;
 
 use Illuminate\Support\Arr;
 
 class NamesTable
 {
     /**
-     * @param \Ajthinking\Tinx\Console\TinxCommand $command
+     * @param \ChrisVasey\Tinx\Console\TinxCommand $command
      * @return void
      * */
     public static function make(TinxCommand $command)
@@ -16,7 +16,7 @@ class NamesTable
     }
 
     /**
-     * @param \Ajthinking\Tinx\Console\TinxCommand $command
+     * @param \ChrisVasey\Tinx\Console\TinxCommand $command
      * @return void
      * */
     private function __construct(TinxCommand $command)

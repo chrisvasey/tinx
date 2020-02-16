@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\Tinx\Includes;
+namespace ChrisVasey\Tinx\Includes;
 
 use Illuminate\Support\Str;
 

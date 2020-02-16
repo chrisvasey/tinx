@@ -1,6 +1,6 @@
 <php
 
-use Ajthinking\Tinx\Console\State;
+use ChrisVasey\Tinx\Console\State;
 use Illuminate\Support\Arr;
 
 /**
@@ -116,7 +116,7 @@ function tinx_query($class, ...$args)
     if ($totalArgs >= 2 && $totalArgs <= 3) {
         return $class::where(...$args)->get();
     }
-    
+
     throw new Exception("Too many arguments!");
 }
 

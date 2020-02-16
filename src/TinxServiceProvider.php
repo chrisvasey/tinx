@@ -1,8 +1,8 @@
 <?php
 
-namespace Ajthinking\Tinx;
+namespace ChrisVasey\Tinx;
 
-use Ajthinking\Tinx\Console\TinxCommand;
+use ChrisVasey\Tinx\Console\TinxCommand;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 

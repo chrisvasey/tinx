@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\Tinx\Naming;
+namespace ChrisVasey\Tinx\Naming;
 
 class ForbiddenNames
 {
@@ -18,10 +18,10 @@ class ForbiddenNames
         'instanceof', 'insteadof', 'interface', 'isset', 'list', 'namespace', 'new', 'or',
         'print', 'private', 'protected', 'public', 'require', 'require_once', 'return',
         'static', 'switch', 'throw', 'trait', 'try', 'unset', 'use', 'var', 'while', 'xor',
-    
+
         // Predefined_constants.
         '__CLASS__', '__DIR__', '__FILE__', '__FUNCTION__', '__LINE__', '__METHOD__', '__NAMESPACE__', '__TRAIT__',
-    
+
         // Used by Tinx.
         're', 'reboot', 'reload', 'restart', 'names', 'tinx_forget_name', 'tinx_query'
 

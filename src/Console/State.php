@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\Tinx\Console;
+namespace ChrisVasey\Tinx\Console;
 
 class State
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\Tinx\Naming;
+namespace ChrisVasey\Tinx\Naming;
 
 use Illuminate\Support\Arr;
 
@@ -49,7 +49,7 @@ class PascalStrategy implements Strategy
     }
 
     /**
-     * @param \Ajthinking\Tinx\Model $model
+     * @param \ChrisVasey\Tinx\Model $model
      * @return void
      * */
     private function setModelName($model)
@@ -109,7 +109,7 @@ class PascalStrategy implements Strategy
     }
 
     /**
-     * @param \Ajthinking\Tinx\Model $model
+     * @param \ChrisVasey\Tinx\Model $model
      * @return string
      * */
     private function getPascalName($model)
@@ -119,8 +119,8 @@ class PascalStrategy implements Strategy
 
     /**
      * @param string $conflictingName
-     * @param \Ajthinking\Tinx\Model $causalModel
-     * @return \Ajthinking\Tinx\Model
+     * @param \ChrisVasey\Tinx\Model $causalModel
+     * @return \ChrisVasey\Tinx\Model
      * */
     private function getConflictingModel($conflictingName, $causalModel)
     {
@@ -163,7 +163,7 @@ class PascalStrategy implements Strategy
 
     /**
      * @param string $name
-     * @param \Ajthinking\Tinx\Model $model
+     * @param \ChrisVasey\Tinx\Model $model
      * @return void
      * */
     private function setName($name, $model)
@@ -200,8 +200,8 @@ class PascalStrategy implements Strategy
     }
 
     /**
-     * @param \Ajthinking\Tinx\Model $conflictingModel
-     * @param \Ajthinking\Tinx\Model $causualModel
+     * @param \ChrisVasey\Tinx\Model $conflictingModel
+     * @param \ChrisVasey\Tinx\Model $causualModel
      * @return string
      * */
     private function getUniquePascalName($conflictingModel, $causalModel)
@@ -246,8 +246,8 @@ class PascalStrategy implements Strategy
 
     /**
      * @param string $conflictingName
-     * @param \Ajthinking\Tinx\Model $conflictingModel
-     * @param \Ajthinking\Tinx\Model $causualModel
+     * @param \ChrisVasey\Tinx\Model $conflictingModel
+     * @param \ChrisVasey\Tinx\Model $causualModel
      * @return string
      * */
     private function getUniquePascalNameWithNamespace($conflictingName, $conflictingModel, $causalModel)
@@ -294,7 +294,7 @@ class PascalStrategy implements Strategy
     }
 
     /**
-     * @param \Ajthinking\Tinx\Model $model
+     * @param \ChrisVasey\Tinx\Model $model
      * @return string
      * */
     private function getSnakeName($model)

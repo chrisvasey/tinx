@@ -1,11 +1,11 @@
 <?php
 
-namespace Ajthinking\Tinx\Console;
+namespace ChrisVasey\Tinx\Console;
 
-use Ajthinking\Tinx\Console\NamesTable;
-use Ajthinking\Tinx\Console\State;
-use Ajthinking\Tinx\Includes\IncludeManager;
-use Ajthinking\Tinx\Naming\StrategyFactory;
+use ChrisVasey\Tinx\Console\NamesTable;
+use ChrisVasey\Tinx\Console\State;
+use ChrisVasey\Tinx\Includes\IncludeManager;
+use ChrisVasey\Tinx\Naming\StrategyFactory;
 use Illuminate\Config\Repository;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;

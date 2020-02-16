@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\Tinx\Models;
+namespace ChrisVasey\Tinx\Models;
 
 use Illuminate\Support\Str;
 

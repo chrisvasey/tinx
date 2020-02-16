@@ -1,4 +1,5 @@
 # ⛔️ Laravel Tinx (Deprecated)
+# MODIFIED FOR PERSONAL USE
 
 [![No Maintenance Intended](./readme/unmaintained.svg)](http://unmaintained.tech/)
 
@@ -66,7 +67,7 @@ Reload your session from inside Tinker, plus magic shortcuts for first(), find()
 To install Tinx, simply require it via Composer:
 
 ```bash
-composer require --dev ajthinking/tinx
+composer require --dev chrisvasey/tinx
 ```
 
 If using Laravel <=5.4, register Tinx's service provider in `config/app.php` (Laravel >=5.5 [does this automatically](https://laravel.com/docs/5.5/packages#package-discovery)):
@@ -80,7 +81,7 @@ return [
     // etc…
     'providers' => [
         // etc…
-        Ajthinking\Tinx\TinxServiceProvider::class,
+        ChrisVasey\Tinx\TinxServiceProvider::class,
         // etc…
     ],
     // etc…
@@ -181,7 +182,7 @@ Tinx contains a number of helpful configuration options.
 To personalise your Tinx installation, publish its config file by running:
 
 ```
-php artisan vendor:publish --provider=Ajthinking\\Tinx\\TinxServiceProvider --force
+php artisan vendor:publish --provider=ChrisVasey\\Tinx\\TinxServiceProvider --force
 ```
 
 Once published, edit `config/tinx.php` where appropriate to suit your needs:
@@ -226,7 +227,7 @@ return [
     'strategy' => 'pascal',
     /**
      * Alternatively, you may pass a resolvable fully qualified class name
-     * implementing 'Ajthinking\Tinx\Naming\Strategy'.
+     * implementing 'ChrisVasey\Tinx\Naming\Strategy'.
      * */
     // 'strategy' => App\CustomNamingStrategy::class,
 
